@@ -6,34 +6,38 @@ import Header from './components/Header/Header';
 import Home from './components/Home/Home';
 import PageNotFound from './components/PageNotFound/PageNotFound';
 import Services from './components/Services/Services';
+import SignUp from './components/SignUp/SignUp';
 
 function App() {
   return (
     <div className="App">
       <Router>
-        <Header/>
+        <Header />
         <Switch>
           <Route exact path='/'>
-            <Home/>            
+            <Home />
           </Route>
           <Route path='/home'>
-            <Home/>
+            <Home />
           </Route>
           <Route path='/services'>
-            <Services/>
+            <Services />
           </Route>
           <Route path='/about'>
-            <AboutUs/>
+            <AboutUs />
+          </Route>
+          <Route path='/sign-up'>
+            <SignUp />
           </Route>
           <Route path='*'>
-            <PageNotFound/>
+            <PageNotFound />
           </Route>
 
         </Switch>
-        <Footer/>
+        <Footer />
       </Router>
-      
-      
+
+
     </div>
   );
 }

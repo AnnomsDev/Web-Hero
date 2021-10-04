@@ -1,0 +1,7 @@
+.service{
+    transition: box-shadow .3s;
+}
+.service:hover{
+    box-shadow: 0 0 15px 2px #47474779;
+
+}

@@ -1,11 +1,5 @@
 const data=[
-    {
-        title: 'Three.js Journey',
-        instructor:'Bruno Simon',
-        details: 'Learn WebGL with three.js. You will learn to build cool looking website with 3d graphics and animation',
-        img:'https://online-courses.club/wp-content/uploads/2021/09/Threejs-Journey-Threejs-journey-The-ultimate-Three.js-course-by-Bruno-Simon.png',
-        price: 95
-    },
+ 
     {
         title: "MongoDB - The Complete Developer's Guide 2021",
         instructor:'Maximilian Schwarzmüller',

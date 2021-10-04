@@ -13,7 +13,7 @@ const Header = () => {
                 <NavLink activeStyle={selected} to='/home'>Home</NavLink>
                 <NavLink activeStyle={selected} to='/services'>Services</NavLink>
                 <NavLink activeStyle={selected} to='/about'>About Us</NavLink>
-                <NavLink className='hero-btn-secondary' activeStyle={selected} to='/log-in'>Sign In</NavLink>
+                <NavLink className='hero-btn-secondary' activeStyle={selected} to='/sign-in'>Sign In</NavLink>
                 <NavLink className='hero-btn-primary' activeStyle={selected} to='/sign-up'>Sign Up</NavLink>
 
 

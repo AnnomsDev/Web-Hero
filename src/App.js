@@ -7,6 +7,7 @@ import Home from './components/Home/Home';
 import PageNotFound from './components/PageNotFound/PageNotFound';
 import Services from './components/Services/Services';
 import SignUp from './components/SignUp/SignUp';
+import SingIn from './components/SingIn/SingIn';
 
 function App() {
   return (
@@ -28,6 +29,9 @@ function App() {
           </Route>
           <Route path='/sign-up'>
             <SignUp />
+          </Route>
+          <Route path='/sign-in'>
+            <SingIn />
           </Route>
           <Route path='*'>
             <PageNotFound />

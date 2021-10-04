@@ -1,0 +1,29 @@
+.Header{
+
+}
+.Header a{
+    color: black;
+    text-decoration: none;
+    margin-left: 24px;
+    font-weight: 500;
+    font-size: 16px;
+
+}
+.logo{
+    color: #173A56;
+    font-size: 30px;
+    font-weight: 700;
+}
+.hero-btn-primary{
+    color: white !important;
+    background-color: #007BFF;
+    font-weight: 700;
+    border-radius: 5px;
+    padding: 0.5em 1.4em;
+}
+.hero-btn-secondary{
+    border-radius: 5px;
+    padding: 0.5em 1.4em;
+    color: #173A56 !important;
+    border: 1px solid #bcd0e5;
+}

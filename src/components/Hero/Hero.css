@@ -1,0 +1,12 @@
+.hero{
+    min-height: 70vh;
+    margin-bottom: 3em;
+}
+.hero h2{
+    font-size: 40px;
+    font-weight: 700;
+}
+.hero .right img{
+    width: 100%;
+    height: 100%;
+}

@@ -18,7 +18,7 @@ const Services = (props) => {
     }, [])
 
     return (
-        <div className='pt-5'>
+        <div className='py-5'>
             <div className="text-center">
                 <h3 className='d-inline-block fw-bold p-2 mb-5 border-bottom border-2'>Services</h3>
             </div>

@@ -3,6 +3,7 @@ import './App.css';
 import AboutUs from './components/AboutUs/AboutUs';
 import Header from './components/Header/Header';
 import Home from './components/Home/Home';
+import PageNotFound from './components/PageNotFound/PageNotFound';
 import Services from './components/Services/Services';
 
 function App() {
@@ -22,6 +23,9 @@ function App() {
           </Route>
           <Route path='/about'>
             <AboutUs/>
+          </Route>
+          <Route path='*'>
+            <PageNotFound/>
           </Route>
 
         </Switch>
